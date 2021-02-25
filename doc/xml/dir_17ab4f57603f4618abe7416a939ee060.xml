@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_17ab4f57603f4618abe7416a939ee060" kind="dir">
+    <compoundname>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers</compoundname>
+    <innerfile refid="_asteroid_controller_8cs">AsteroidController.cs</innerfile>
+    <innerfile refid="_bullet_controller_8cs">BulletController.cs</innerfile>
+    <innerfile refid="_lives_controller_8cs">LivesController.cs</innerfile>
+    <innerfile refid="_player_controller_8cs">PlayerController.cs</innerfile>
+    <innerfile refid="_spawn_controller_8cs">SpawnController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/"/>
+  </compounddef>
+</doxygen>

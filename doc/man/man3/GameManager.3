@@ -1,0 +1,133 @@
+.TH "GameManager" 3 "Thu Feb 25 2021" "Version 0.1" "Asteroid QMOBI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GameManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBClickPlay\fP ()"
+.br
+.ti -1c
+.RI "void \fBStartGame\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetScore\fP (int setScore)"
+.br
+.ti -1c
+.RI "async void \fBGameOver\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBLivesController\fP \fBLivesController\fP"
+.br
+.ti -1c
+.RI "\fBCanvasUIManager\fP \fB_canvasUI\fP"
+.br
+.ti -1c
+.RI "\fBCanvasGameManager\fP \fB_canvasGame\fP"
+.br
+.ti -1c
+.RI "\fBSpawnController\fP \fBSpawnController\fP"
+.br
+.ti -1c
+.RI "GameObject \fBAsteroidPrebab\fP"
+.br
+.ti -1c
+.RI "bool \fB_isGameOver\fP = false"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBscore\fP = 0"
+.br
+.ti -1c
+.RI "static int \fBenemySpawnTime\fP = 2"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Класс содержит основные методы логики игры и хранит ссылки на другие контроллеры и менеджеры\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fI\fBLivesController\fP\fP \fBLivesController\fP контроллер жизней
+.br
+\fI_canvasUI\fP \fBCanvasUIManager\fP менеджер UI канваса 
+.br
+\fI_canvasGame\fP \fBCanvasGameManager\fP менеджер Game канваса 
+.br
+\fI\fBSpawnController\fP\fP \fBSpawnController\fP контроллер Spawn'а врагов
+.br
+\fIscore\fP int статичное поле - количество очков 
+.br
+\fIlives\fP int статичное поле - количество жизней 
+.br
+\fIsetScore\fP int статичное поле - получаемое количество очков(за действие: убийство врага)
+.br
+\fIenemySpawnTime\fP int статичное поле - время Spawn'а врагов
+.br
+\fI_lives\fP int сериализованное приватное поле - количество жизней 
+.br
+\fI_setScore\fP int сериализованное приватное поле - получаемое количество очков(за действие: убийство врага) 
+.br
+\fI_enemySpawnTime\fP int сериализованное приватное поле - время Spawn'а врагов
+.br
+\fIAsteroidPrebab\fP GameObject префаб врага('Астероид')
+.br
+\fI_centerText\fP string сериализованное приватное поле - текст в центре при вылете игрока за пределы экрана
+.br
+\fI_isGameOver\fP bool булиновка, определяющая закончился ли гейм 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file GameManager\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void GameManager\&.ClickPlay ()"
+Для кнопки 'Play' основного меню 
+.PP
+Definition at line 71 of file GameManager\&.cs\&.
+.SS "async void GameManager\&.GameOver ()"
+Вызывается при проигрыше Дествие:
+.IP "\(bu" 2
+окончание игры
+.IP "\(bu" 2
+ожидание
+.IP "\(bu" 2
+перезагрузка игры 
+.PP
+
+.PP
+Definition at line 110 of file GameManager\&.cs\&.
+.SS "void GameManager\&.SetScore (int setScore)"
+Отвечает за добавление игровых очков 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsetScore\fP отрицательное или положительное колличество очков 
+.RE
+.PP
+
+.PP
+Definition at line 98 of file GameManager\&.cs\&.
+.SS "void GameManager\&.StartGame ()"
+Метод устанавливает статичные поля из сериализованных и вызывает методы SetLives и StartSpawn контроллеров \fBLivesController\fP и \fBSpawnController\fP 
+.PP
+Definition at line 80 of file GameManager\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Asteroid QMOBI from the source code\&.

@@ -1,0 +1,48 @@
+.TH "LivesController" 3 "Thu Feb 25 2021" "Version 0.1" "Asteroid QMOBI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+LivesController
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetLives\fP (int count)"
+.br
+.ti -1c
+.RI "void \fBMinusLive\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Контроллер жизней 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_livesPrefab\fP GameObject сериализованное приватное поле - префаб жизни(UI) 
+.br
+\fI_livesUIObject\fP List<GameObject> приватное поле - лист жизней(UI) 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file LivesController\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void LivesController\&.MinusLive ()"
+Убираем крайний объект 'жизни' с канваса / вызываем Destroy 
+.PP
+Definition at line 31 of file LivesController\&.cs\&.
+.SS "void LivesController\&.SetLives (int count)"
+Задаем жизни в UI канвас 
+.PP
+Definition at line 20 of file LivesController\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Asteroid QMOBI from the source code\&.

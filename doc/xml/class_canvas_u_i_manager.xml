@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_canvas_u_i_manager" kind="class" language="C#" prot="public">
+    <compoundname>CanvasUIManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_canvas_u_i_manager_1a32defc087a1a205126548b40a3ceb716" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text CanvasUIManager.TextScore</definition>
+        <argsstring></argsstring>
+        <name>TextScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" line="14" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_canvas_u_i_manager_1a68d0cfe0e78175ee64509fbae9585199" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CanvasUIManager.LivesParent</definition>
+        <argsstring></argsstring>
+        <name>LivesParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" line="15" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_canvas_u_i_manager_1ae4cf8aa565361036fbeed6615b59c259" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text CanvasUIManager.CenterChat</definition>
+        <argsstring></argsstring>
+        <name>CenterChat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" line="14" column="27" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_canvas_u_i_manager_1a38cd345e0c9762e69f051ad9bce52396" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanvasUIManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" line="17" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Менеджер UI канваса (при загрузке отключает CenterChat (Text компонент на объекте)) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TextScore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text текстовое поле для игровых очков </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CenterChat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Text текстовое поле в центре экрана для чата с игроком </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>LivesParent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject родитель для отображения колличества жизней(UI) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CanvasUIManager</label>
+        <link refid="class_canvas_u_i_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CanvasUIManager</label>
+        <link refid="class_canvas_u_i_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" line="12" column="7" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasUIManager.cs" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_canvas_u_i_manager_1a38cd345e0c9762e69f051ad9bce52396" prot="private" virt="non-virtual"><scope>CanvasUIManager</scope><name>Awake</name></member>
+      <member refid="class_canvas_u_i_manager_1ae4cf8aa565361036fbeed6615b59c259" prot="private" virt="non-virtual"><scope>CanvasUIManager</scope><name>CenterChat</name></member>
+      <member refid="class_canvas_u_i_manager_1a68d0cfe0e78175ee64509fbae9585199" prot="public" virt="non-virtual"><scope>CanvasUIManager</scope><name>LivesParent</name></member>
+      <member refid="class_canvas_u_i_manager_1a32defc087a1a205126548b40a3ceb716" prot="public" virt="non-virtual"><scope>CanvasUIManager</scope><name>TextScore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

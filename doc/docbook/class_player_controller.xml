@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_controller" xml:lang="en-US">
+<title>PlayerController Class Reference</title>
+<indexterm><primary>PlayerController</primary></indexterm>
+<para>Inheritance diagram for PlayerController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para>Контроллер Игрока 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>BulletsStartPoint</entry>
+                                <entry>
+<para>GameObject сериализованное приватное поле - Стартовая позиция для пули </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>BulletPrefab</entry>
+                                <entry>
+<para>GameObject сериализованное приватное поле - Префаб пули</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_shipSpeed</entry>
+                                <entry>
+<para>float сериализованное приватное поле - скорость игрока </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_bulletSpeed</entry>
+                                <entry>
+<para>float сериализованное приватное поле - скорость пули</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_gameManager</entry>
+                                <entry>
+<para><link linkend="_class_game_manager">GameManager</link> менеджер игры </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_rb</entry>
+                                <entry>
+<para>Rigidbody2D компонент rigidbody2d игрока </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_particle</entry>
+                                <entry>
+<para>ParticleSystem партиклы игрока(огонь, выходящий из нижней части корабля)</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_IsCenterChatActive</entry>
+                                <entry>
+<para>bool булиновка, определяющая состояние центрального чата </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_IsSuperMode</entry>
+                                <entry>
+<para>bool булиновка, определяющая находится ли игрок в состояние неуязвимости(Супер мод) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 21 of file PlayerController.cs.</para>
+</section>
+</section>

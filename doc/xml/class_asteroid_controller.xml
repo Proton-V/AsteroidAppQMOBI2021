@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_asteroid_controller" kind="class" language="C#" prot="public">
+    <compoundname>AsteroidController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_asteroid_controller_1a057d61d3d5a7a9a9a0ccf04445fe9838" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AsteroidController.MaxStage</definition>
+        <argsstring></argsstring>
+        <name>MaxStage</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="25" column="16" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_asteroid_controller_1a3d188ec7f7ef6367bb55f907a492ad7e" prot="private" static="no" mutable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; AsteroidController._stageSprites</definition>
+        <argsstring></argsstring>
+        <name>_stageSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="27" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1ace16cceaea1b7b9ec354e635afd96c9a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AsteroidController._nowStage</definition>
+        <argsstring></argsstring>
+        <name>_nowStage</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="28" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1a81fefad06dfab2dc93890c82fb4f3a41" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem AsteroidController._particle</definition>
+        <argsstring></argsstring>
+        <name>_particle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="30" column="28" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1a7749b7c6600f51eca4e6aad7134b5798" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AsteroidController._particleTime</definition>
+        <argsstring></argsstring>
+        <name>_particleTime</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="33" column="19" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1a121736a85e612f4d6105a114b645e665" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_manager" kindref="compound">GameManager</ref></type>
+        <definition>GameManager AsteroidController._gameManager</definition>
+        <argsstring></argsstring>
+        <name>_gameManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="35" column="25" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1a0ea046fdc0429a55a982cac1c2ac14a3" prot="private" static="no" mutable="no">
+        <type>Action</type>
+        <definition>Action AsteroidController._particleAnim</definition>
+        <argsstring></argsstring>
+        <name>_particleAnim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="36" column="20" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_asteroid_controller_1a6c1cb60bf0545ccdf75880b19dfeaf77" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AsteroidController.isReadyToDestroy</definition>
+        <argsstring></argsstring>
+        <name>isReadyToDestroy</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="38" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_asteroid_controller_1a38f1786fe3e2fbb596fb599ed2be1c6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="40" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_asteroid_controller_1ab6683ffbececb447c6607f6589b442f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="47" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_asteroid_controller_1a4d1d60ad933ce2397201fefe3b069085" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.NextStage</definition>
+        <argsstring>()</argsstring>
+        <name>NextStage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>При уничтожении врага он разделяется на два меньшего размера(учитывая условия максимальной стадии) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="59" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="59" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_asteroid_controller_1aa62b593e8ebbef57b0b6b6b1906d1b76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void AsteroidController.StartParticle</definition>
+        <argsstring>(float time)</argsstring>
+        <name>StartParticle</name>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Партикл проигрывается при попадании по врагу. Копируется партикл, переносится в родителя партиклов, ожидается заранее заданное время, уничтожается </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="86" column="24" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="86" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_asteroid_controller_1a6bca9d685b256e86514d658305496aab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="115" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="115" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_asteroid_controller_1ab3260ebd1511cf56a602dfc256a07690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.Force</definition>
+        <argsstring>()</argsstring>
+        <name>Force</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Первое ускорение после Spawn&apos;а </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="99" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_asteroid_controller_1ab63491af3cf8f78a4d0231446a9ed64d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AsteroidController.SecondForce</definition>
+        <argsstring>()</argsstring>
+        <name>SecondForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ускорение при разделении врага на 2 таких же </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="109" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="109" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Контроллер врага(&quot;Астероид&quot;) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>MaxStage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int максимум стадий разлома астероида </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_stageSprites</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List&lt;Sprite&gt; приватное сериализованное поле - лист спрайтов для различных стадий </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_stageSprites</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List&lt;Sprite&gt; приватное поле - стадия объекта(врага), содержащего этот контроллер</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ParticleSystem приватное поле - партинклы врага </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_particleTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float приватное сериализованное поле - время анимации партиклов при уничтожении врага</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_gameManager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_game_manager" kindref="compound">GameManager</ref> менеджер игры </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_particleAnim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Action событие: анимация при уничтожении врага</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isReadyToDestroy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool булиновка, которая становится &quot;true&quot; когда враг проходит через видимые границы экрана </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AsteroidController</label>
+        <link refid="class_asteroid_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AsteroidController</label>
+        <link refid="class_asteroid_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" line="22" column="7" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/AsteroidController.cs" bodystart="23" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_asteroid_controller_1a121736a85e612f4d6105a114b645e665" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_gameManager</name></member>
+      <member refid="class_asteroid_controller_1ace16cceaea1b7b9ec354e635afd96c9a" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_nowStage</name></member>
+      <member refid="class_asteroid_controller_1a81fefad06dfab2dc93890c82fb4f3a41" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_particle</name></member>
+      <member refid="class_asteroid_controller_1a0ea046fdc0429a55a982cac1c2ac14a3" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_particleAnim</name></member>
+      <member refid="class_asteroid_controller_1a7749b7c6600f51eca4e6aad7134b5798" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_particleTime</name></member>
+      <member refid="class_asteroid_controller_1a3d188ec7f7ef6367bb55f907a492ad7e" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>_stageSprites</name></member>
+      <member refid="class_asteroid_controller_1a38f1786fe3e2fbb596fb599ed2be1c6f" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>Awake</name></member>
+      <member refid="class_asteroid_controller_1ab3260ebd1511cf56a602dfc256a07690" prot="public" virt="non-virtual"><scope>AsteroidController</scope><name>Force</name></member>
+      <member refid="class_asteroid_controller_1a6c1cb60bf0545ccdf75880b19dfeaf77" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>isReadyToDestroy</name></member>
+      <member refid="class_asteroid_controller_1a057d61d3d5a7a9a9a0ccf04445fe9838" prot="public" virt="non-virtual"><scope>AsteroidController</scope><name>MaxStage</name></member>
+      <member refid="class_asteroid_controller_1a4d1d60ad933ce2397201fefe3b069085" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>NextStage</name></member>
+      <member refid="class_asteroid_controller_1a6bca9d685b256e86514d658305496aab" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_asteroid_controller_1ab63491af3cf8f78a4d0231446a9ed64d" prot="public" virt="non-virtual"><scope>AsteroidController</scope><name>SecondForce</name></member>
+      <member refid="class_asteroid_controller_1aa62b593e8ebbef57b0b6b6b1906d1b76" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>StartParticle</name></member>
+      <member refid="class_asteroid_controller_1ab6683ffbececb447c6607f6589b442f2" prot="private" virt="non-virtual"><scope>AsteroidController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

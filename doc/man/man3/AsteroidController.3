@@ -1,0 +1,67 @@
+.TH "AsteroidController" 3 "Thu Feb 25 2021" "Version 0.1" "Asteroid QMOBI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AsteroidController
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBForce\fP ()"
+.br
+.ti -1c
+.RI "void \fBSecondForce\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBMaxStage\fP = 3"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Контроллер врага('Астероид') 
+.PP
+\fBParameters\fP
+.RS 4
+\fIMaxStage\fP int максимум стадий разлома астероида 
+.br
+\fI_stageSprites\fP List<Sprite> приватное сериализованное поле - лист спрайтов для различных стадий 
+.br
+\fI_stageSprites\fP List<Sprite> приватное поле - стадия объекта(врага), содержащего этот контроллер
+.br
+\fI_particle\fP ParticleSystem приватное поле - партинклы врага 
+.br
+\fI_particleTime\fP float приватное сериализованное поле - время анимации партиклов при уничтожении врага
+.br
+\fI_gameManager\fP \fBGameManager\fP менеджер игры 
+.br
+\fI_particleAnim\fP Action событие: анимация при уничтожении врага
+.br
+\fIisReadyToDestroy\fP bool булиновка, которая становится 'true' когда враг проходит через видимые границы экрана 
+.RE
+.PP
+
+.PP
+Definition at line 22 of file AsteroidController\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void AsteroidController\&.Force ()"
+Первое ускорение после Spawn'а 
+.PP
+Definition at line 99 of file AsteroidController\&.cs\&.
+.SS "void AsteroidController\&.SecondForce ()"
+Ускорение при разделении врага на 2 таких же 
+.PP
+Definition at line 109 of file AsteroidController\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Asteroid QMOBI from the source code\&.

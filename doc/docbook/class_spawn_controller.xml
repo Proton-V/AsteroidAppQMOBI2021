@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_spawn_controller" xml:lang="en-US">
+<title>SpawnController Class Reference</title>
+<indexterm><primary>SpawnController</primary></indexterm>
+<para>Inheritance diagram for SpawnController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_spawn_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_spawn_controller_1a6f4b4f3648e42e17a6e90cd1c05fe0c6">StartSpawn</link> ()</para>
+</listitem>
+            <listitem><para>IEnumerator <link linkend="_class_spawn_controller_1a2bd70f122672d6c10ff884878cc06d24">Spawn</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>Vector2 <link linkend="_class_spawn_controller_1a526bc1116dc70ed5508edb911b3d2602">_randomPosOutScreen</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Контроллер Spawn&apos;а врагов 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>_gameManager</entry>
+                                <entry>
+<para><link linkend="_class_game_manager">GameManager</link> менеджер игры </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 12 of file SpawnController.cs.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_spawn_controller_1a2bd70f122672d6c10ff884878cc06d24"/>    <section>
+    <title>Spawn()</title>
+<indexterm><primary>Spawn</primary><secondary>SpawnController</secondary></indexterm>
+<indexterm><primary>SpawnController</primary><secondary>Spawn</secondary></indexterm>
+<para><computeroutput>IEnumerator SpawnController.Spawn ( )</computeroutput></para>
+<para>IEnumerator Spawn&apos;а - ожидает, создает врага, устанавливает его позицию и вызывает у него метод Force(), если игра не окончена вызывает сама себя </para>
+<para>
+Definition at line 54 of file SpawnController.cs.</para>
+    </section><anchor xml:id="_class_spawn_controller_1a6f4b4f3648e42e17a6e90cd1c05fe0c6"/>    <section>
+    <title>StartSpawn()</title>
+<indexterm><primary>StartSpawn</primary><secondary>SpawnController</secondary></indexterm>
+<indexterm><primary>SpawnController</primary><secondary>StartSpawn</secondary></indexterm>
+<para><computeroutput>void SpawnController.StartSpawn ( )</computeroutput></para>
+<para>Старт корутины Spawn&apos;а </para>
+<para>
+Definition at line 46 of file SpawnController.cs.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_spawn_controller_1a526bc1116dc70ed5508edb911b3d2602"/>    <section>
+    <title>_randomPosOutScreen</title>
+<indexterm><primary>_randomPosOutScreen</primary><secondary>SpawnController</secondary></indexterm>
+<indexterm><primary>SpawnController</primary><secondary>_randomPosOutScreen</secondary></indexterm>
+<para><computeroutput>Vector2 SpawnController._randomPosOutScreen<computeroutput>[get]</computeroutput></computeroutput></para>
+<para>Вектор2 с рандомной позицией за пределами экрана(стандартные расчеты, не учитывая статичность пикселей канваса) </para>
+<para>
+Definition at line 24 of file SpawnController.cs.</para>
+</section>
+</section>
+</section>

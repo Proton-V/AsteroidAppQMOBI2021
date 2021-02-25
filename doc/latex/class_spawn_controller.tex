@@ -1,0 +1,68 @@
+\hypertarget{class_spawn_controller}{}\doxysection{Spawn\+Controller Class Reference}
+\label{class_spawn_controller}\index{SpawnController@{SpawnController}}
+Inheritance diagram for Spawn\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_spawn_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_spawn_controller_a6f4b4f3648e42e17a6e90cd1c05fe0c6}{Start\+Spawn}} ()
+\item 
+IEnumerator \mbox{\hyperlink{class_spawn_controller_a2bd70f122672d6c10ff884878cc06d24}{Spawn}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Vector2 \mbox{\hyperlink{class_spawn_controller_a526bc1116dc70ed5508edb911b3d2602}{\+\_\+random\+Pos\+Out\+Screen}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Контроллер Spawn\textquotesingle{}а врагов 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+game\+Manager} & \mbox{\hyperlink{class_game_manager}{Game\+Manager}} менеджер игры \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 12 of file Spawn\+Controller.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_spawn_controller_a2bd70f122672d6c10ff884878cc06d24}\label{class_spawn_controller_a2bd70f122672d6c10ff884878cc06d24}} 
+\index{SpawnController@{SpawnController}!Spawn@{Spawn}}
+\index{Spawn@{Spawn}!SpawnController@{SpawnController}}
+\doxysubsubsection{\texorpdfstring{Spawn()}{Spawn()}}
+{\footnotesize\ttfamily IEnumerator Spawn\+Controller.\+Spawn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+IEnumerator Spawn\textquotesingle{}а -\/ ожидает, создает врага, устанавливает его позицию и вызывает у него метод Force(), если игра не окончена вызывает сама себя 
+
+Definition at line 54 of file Spawn\+Controller.\+cs.
+
+\mbox{\Hypertarget{class_spawn_controller_a6f4b4f3648e42e17a6e90cd1c05fe0c6}\label{class_spawn_controller_a6f4b4f3648e42e17a6e90cd1c05fe0c6}} 
+\index{SpawnController@{SpawnController}!StartSpawn@{StartSpawn}}
+\index{StartSpawn@{StartSpawn}!SpawnController@{SpawnController}}
+\doxysubsubsection{\texorpdfstring{StartSpawn()}{StartSpawn()}}
+{\footnotesize\ttfamily void Spawn\+Controller.\+Start\+Spawn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Старт корутины Spawn\textquotesingle{}а 
+
+Definition at line 46 of file Spawn\+Controller.\+cs.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_spawn_controller_a526bc1116dc70ed5508edb911b3d2602}\label{class_spawn_controller_a526bc1116dc70ed5508edb911b3d2602}} 
+\index{SpawnController@{SpawnController}!\_randomPosOutScreen@{\_randomPosOutScreen}}
+\index{\_randomPosOutScreen@{\_randomPosOutScreen}!SpawnController@{SpawnController}}
+\doxysubsubsection{\texorpdfstring{\_randomPosOutScreen}{\_randomPosOutScreen}}
+{\footnotesize\ttfamily Vector2 Spawn\+Controller.\+\_\+random\+Pos\+Out\+Screen\hspace{0.3cm}{\ttfamily [get]}}
+
+Вектор2 с рандомной позицией за пределами экрана(стандартные расчеты, не учитывая статичность пикселей канваса) 
+
+Definition at line 24 of file Spawn\+Controller.\+cs.
+

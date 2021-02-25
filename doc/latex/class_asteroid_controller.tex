@@ -1,0 +1,70 @@
+\hypertarget{class_asteroid_controller}{}\doxysection{Asteroid\+Controller Class Reference}
+\label{class_asteroid_controller}\index{AsteroidController@{AsteroidController}}
+Inheritance diagram for Asteroid\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_asteroid_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_asteroid_controller_ab3260ebd1511cf56a602dfc256a07690}{Force}} ()
+\item 
+void \mbox{\hyperlink{class_asteroid_controller_ab63491af3cf8f78a4d0231446a9ed64d}{Second\+Force}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_asteroid_controller_a057d61d3d5a7a9a9a0ccf04445fe9838}\label{class_asteroid_controller_a057d61d3d5a7a9a9a0ccf04445fe9838}} 
+int {\bfseries Max\+Stage} = 3
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Контроллер врага(\char`\"{}Астероид\char`\"{}) 
+\begin{DoxyParams}{Parameters}
+{\em Max\+Stage} & int максимум стадий разлома астероида \\
+\hline
+{\em \+\_\+stage\+Sprites} & List$<$\+Sprite$>$ приватное сериализованное поле -\/ лист спрайтов для различных стадий \\
+\hline
+{\em \+\_\+stage\+Sprites} & List$<$\+Sprite$>$ приватное поле -\/ стадия объекта(врага), содержащего этот контроллер\\
+\hline
+{\em \+\_\+particle} & Particle\+System приватное поле -\/ партинклы врага \\
+\hline
+{\em \+\_\+particle\+Time} & float приватное сериализованное поле -\/ время анимации партиклов при уничтожении врага\\
+\hline
+{\em \+\_\+game\+Manager} & \mbox{\hyperlink{class_game_manager}{Game\+Manager}} менеджер игры \\
+\hline
+{\em \+\_\+particle\+Anim} & Action событие\+: анимация при уничтожении врага\\
+\hline
+{\em is\+Ready\+To\+Destroy} & bool булиновка, которая становится \char`\"{}true\char`\"{} когда враг проходит через видимые границы экрана \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 22 of file Asteroid\+Controller.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_asteroid_controller_ab3260ebd1511cf56a602dfc256a07690}\label{class_asteroid_controller_ab3260ebd1511cf56a602dfc256a07690}} 
+\index{AsteroidController@{AsteroidController}!Force@{Force}}
+\index{Force@{Force}!AsteroidController@{AsteroidController}}
+\doxysubsubsection{\texorpdfstring{Force()}{Force()}}
+{\footnotesize\ttfamily void Asteroid\+Controller.\+Force (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Первое ускорение после Spawn\textquotesingle{}а 
+
+Definition at line 99 of file Asteroid\+Controller.\+cs.
+
+\mbox{\Hypertarget{class_asteroid_controller_ab63491af3cf8f78a4d0231446a9ed64d}\label{class_asteroid_controller_ab63491af3cf8f78a4d0231446a9ed64d}} 
+\index{AsteroidController@{AsteroidController}!SecondForce@{SecondForce}}
+\index{SecondForce@{SecondForce}!AsteroidController@{AsteroidController}}
+\doxysubsubsection{\texorpdfstring{SecondForce()}{SecondForce()}}
+{\footnotesize\ttfamily void Asteroid\+Controller.\+Second\+Force (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Ускорение при разделении врага на 2 таких же 
+
+Definition at line 109 of file Asteroid\+Controller.\+cs.
+

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="class_asteroid_controller" kind="class"><name>AsteroidController</name>
+    <member refid="class_asteroid_controller_1a057d61d3d5a7a9a9a0ccf04445fe9838" kind="variable"><name>MaxStage</name></member>
+    <member refid="class_asteroid_controller_1a3d188ec7f7ef6367bb55f907a492ad7e" kind="variable"><name>_stageSprites</name></member>
+    <member refid="class_asteroid_controller_1ace16cceaea1b7b9ec354e635afd96c9a" kind="variable"><name>_nowStage</name></member>
+    <member refid="class_asteroid_controller_1a81fefad06dfab2dc93890c82fb4f3a41" kind="variable"><name>_particle</name></member>
+    <member refid="class_asteroid_controller_1a7749b7c6600f51eca4e6aad7134b5798" kind="variable"><name>_particleTime</name></member>
+    <member refid="class_asteroid_controller_1a121736a85e612f4d6105a114b645e665" kind="variable"><name>_gameManager</name></member>
+    <member refid="class_asteroid_controller_1a0ea046fdc0429a55a982cac1c2ac14a3" kind="variable"><name>_particleAnim</name></member>
+    <member refid="class_asteroid_controller_1a6c1cb60bf0545ccdf75880b19dfeaf77" kind="variable"><name>isReadyToDestroy</name></member>
+    <member refid="class_asteroid_controller_1a38f1786fe3e2fbb596fb599ed2be1c6f" kind="function"><name>Awake</name></member>
+    <member refid="class_asteroid_controller_1ab6683ffbececb447c6607f6589b442f2" kind="function"><name>Update</name></member>
+    <member refid="class_asteroid_controller_1a4d1d60ad933ce2397201fefe3b069085" kind="function"><name>NextStage</name></member>
+    <member refid="class_asteroid_controller_1aa62b593e8ebbef57b0b6b6b1906d1b76" kind="function"><name>StartParticle</name></member>
+    <member refid="class_asteroid_controller_1a6bca9d685b256e86514d658305496aab" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_asteroid_controller_1ab3260ebd1511cf56a602dfc256a07690" kind="function"><name>Force</name></member>
+    <member refid="class_asteroid_controller_1ab63491af3cf8f78a4d0231446a9ed64d" kind="function"><name>SecondForce</name></member>
+  </compound>
+  <compound refid="class_bullet_controller" kind="class"><name>BulletController</name>
+    <member refid="class_bullet_controller_1ac796fca5f5c7655ce09a43a6891d89a1" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_canvas_game_manager" kind="class"><name>CanvasGameManager</name>
+    <member refid="class_canvas_game_manager_1a61cf3b20d9128801f0bf0928da021240" kind="variable"><name>BulletsParent</name></member>
+    <member refid="class_canvas_game_manager_1a6f22c6512f67e9827cd06d312b51325b" kind="variable"><name>EnemyParent</name></member>
+    <member refid="class_canvas_game_manager_1aa17fb5beb21b6e164094c75e6fa6ade4" kind="variable"><name>ParticleParent</name></member>
+  </compound>
+  <compound refid="class_canvas_u_i_manager" kind="class"><name>CanvasUIManager</name>
+    <member refid="class_canvas_u_i_manager_1a32defc087a1a205126548b40a3ceb716" kind="variable"><name>TextScore</name></member>
+    <member refid="class_canvas_u_i_manager_1a68d0cfe0e78175ee64509fbae9585199" kind="variable"><name>LivesParent</name></member>
+    <member refid="class_canvas_u_i_manager_1ae4cf8aa565361036fbeed6615b59c259" kind="variable"><name>CenterChat</name></member>
+    <member refid="class_canvas_u_i_manager_1a38cd345e0c9762e69f051ad9bce52396" kind="function"><name>Awake</name></member>
+  </compound>
+  <compound refid="class_check_out_off_screen" kind="class"><name>CheckOutOffScreen</name>
+    <member refid="class_check_out_off_screen_1a1703fcae2b70082797503d7f24de19e6" kind="function"><name>_posOnScreen</name></member>
+    <member refid="class_check_out_off_screen_1a91f4874784d2477fa1c6996885a484a7" kind="function"><name>_isOffScreen</name></member>
+  </compound>
+  <compound refid="class_game_manager" kind="class"><name>GameManager</name>
+    <member refid="class_game_manager_1a4a8a6f5ad5afaa1d1c60918b4380f935" kind="variable"><name>LivesController</name></member>
+    <member refid="class_game_manager_1ad6286bf0c2ec1078679d009fa5859496" kind="variable"><name>_canvasUI</name></member>
+    <member refid="class_game_manager_1aa8ab9c4a5aa368bfb9a5fa3185c99594" kind="variable"><name>_canvasGame</name></member>
+    <member refid="class_game_manager_1a59216622515f6d390ee59182f99ce4c0" kind="variable"><name>SpawnController</name></member>
+    <member refid="class_game_manager_1a308285e5c2f2500e2d6d059cc1be8b39" kind="variable"><name>AsteroidPrebab</name></member>
+    <member refid="class_game_manager_1a70a71b461f0c6ad697e2bfede38d20c8" kind="variable"><name>_isGameOver</name></member>
+    <member refid="class_game_manager_1ae9711122c3e5251d8f9ff4e02283af09" kind="variable"><name>score</name></member>
+    <member refid="class_game_manager_1a309d708894ad98c3083387d52810fa0f" kind="variable"><name>enemySpawnTime</name></member>
+    <member refid="class_game_manager_1a618c785b9ad493f65c58188ef1686b1e" kind="variable"><name>lives</name></member>
+    <member refid="class_game_manager_1a4542e838574b3c0b76c09b820d2d4300" kind="variable"><name>setScore</name></member>
+    <member refid="class_game_manager_1a9432f7cfaa2a3fdfe897c6fa20fc841f" kind="variable"><name>_lives</name></member>
+    <member refid="class_game_manager_1aa31216295a17b01bcebb3496e5e38103" kind="variable"><name>_setScore</name></member>
+    <member refid="class_game_manager_1accfb459e5049b3dbce69569a086b6825" kind="variable"><name>_enemySpawnTime</name></member>
+    <member refid="class_game_manager_1a1babef10c024df8360cf6b701405a1ed" kind="variable"><name>_centerText</name></member>
+    <member refid="class_game_manager_1ac3e882d19fd86757a40a42d0c88276f3" kind="function"><name>OnValidate</name></member>
+    <member refid="class_game_manager_1a5da290a9e109990a9eecc3ca8d01b2d1" kind="function"><name>ClickPlay</name></member>
+    <member refid="class_game_manager_1a9193c24424f6a10c7d9df407264ed4fa" kind="function"><name>StartGame</name></member>
+    <member refid="class_game_manager_1ac750b1881b734d197bb277930a106693" kind="function"><name>SetScore</name></member>
+    <member refid="class_game_manager_1a4f933890b958b184e58748c1151a44ce" kind="function"><name>GameOver</name></member>
+  </compound>
+  <compound refid="class_lives_controller" kind="class"><name>LivesController</name>
+    <member refid="class_lives_controller_1aac8f56f55f75bd85ee83a7b82a47c343" kind="variable"><name>_livesPrefab</name></member>
+    <member refid="class_lives_controller_1a6899652d168057f9b9e08c242cc37e2a" kind="variable"><name>_livesUIObject</name></member>
+    <member refid="class_lives_controller_1ab68d5496df9ab2a624247da5a6897895" kind="function"><name>SetLives</name></member>
+    <member refid="class_lives_controller_1ac2f6ab84509aadcf9a1bf8372ad6f643" kind="function"><name>MinusLive</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1ad9498247f2a2ab0b184c83a2a4752b66" kind="variable"><name>BulletsStartPoint</name></member>
+    <member refid="class_player_controller_1aa15755f0f6de34413703c8b67304536c" kind="variable"><name>BulletPrefab</name></member>
+    <member refid="class_player_controller_1addae51523cd8fb5e8ffa46be4809f771" kind="variable"><name>_shipSpeed</name></member>
+    <member refid="class_player_controller_1a68a55fca037d92fb17f0940d8194fa91" kind="variable"><name>_bulletSpeed</name></member>
+    <member refid="class_player_controller_1a0c69e3e9bd93ea7027ebde23a5da3a3a" kind="variable"><name>_gameManager</name></member>
+    <member refid="class_player_controller_1ab3c0a1c37806a21130d908443905fba3" kind="variable"><name>_rb</name></member>
+    <member refid="class_player_controller_1a2dee592312be42b66d8cbf19cff15041" kind="variable"><name>_particle</name></member>
+    <member refid="class_player_controller_1a144475ef9bb49fa7a7aa40e2aab400f3" kind="variable"><name>_IsCenterChatActive</name></member>
+    <member refid="class_player_controller_1a287c627afeb6cf855f7bee93a4020ed0" kind="variable"><name>_IsSuperMode</name></member>
+    <member refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" kind="function"><name>Start</name></member>
+    <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" kind="function"><name>Update</name></member>
+    <member refid="class_player_controller_1af9efa6b7effa2e83637f6b3bae4298a2" kind="function"><name>CheckOffScreen</name></member>
+    <member refid="class_player_controller_1a75a33bb6ae46e7aec0775e31ee3ca20e" kind="function"><name>RotateToMousePos</name></member>
+    <member refid="class_player_controller_1afcc5bc74ac44584dca7c8d3a1438724b" kind="function"><name>CheckSpaceKey</name></member>
+    <member refid="class_player_controller_1a3401e52e1a8feb30a8e7a7c3aeed6fe1" kind="function"><name>CheckMouseButtonDown</name></member>
+    <member refid="class_player_controller_1ab2ba3a7034578790e42bc90fd1aa7d81" kind="function"><name>SpawnBullet</name></member>
+    <member refid="class_player_controller_1a285d6efdc19e93b36f5229b82c6ee58d" kind="function"><name>OnSuperMode</name></member>
+    <member refid="class_player_controller_1ac3bf9be5c5e43b8746597f149cc14cb7" kind="function"><name>OnCollisionEnter2D</name></member>
+  </compound>
+  <compound refid="class_spawn_controller" kind="class"><name>SpawnController</name>
+    <member refid="class_spawn_controller_1a8dbdd436bb8ef5b4fd1ce879a929c2ad" kind="variable"><name>_gameManager</name></member>
+    <member refid="class_spawn_controller_1a526bc1116dc70ed5508edb911b3d2602" kind="property"><name>_randomPosOutScreen</name></member>
+    <member refid="class_spawn_controller_1afd24541839e9e40f8d665e861343f127" kind="function"><name>Awake</name></member>
+    <member refid="class_spawn_controller_1a6f4b4f3648e42e17a6e90cd1c05fe0c6" kind="function"><name>StartSpawn</name></member>
+    <member refid="class_spawn_controller_1a2bd70f122672d6c10ff884878cc06d24" kind="function"><name>Spawn</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_asteroid_controller_8cs" kind="file"><name>AsteroidController.cs</name>
+  </compound>
+  <compound refid="_bullet_controller_8cs" kind="file"><name>BulletController.cs</name>
+  </compound>
+  <compound refid="_lives_controller_8cs" kind="file"><name>LivesController.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
+  <compound refid="_spawn_controller_8cs" kind="file"><name>SpawnController.cs</name>
+  </compound>
+  <compound refid="_canvas_game_manager_8cs" kind="file"><name>CanvasGameManager.cs</name>
+  </compound>
+  <compound refid="_canvas_u_i_manager_8cs" kind="file"><name>CanvasUIManager.cs</name>
+  </compound>
+  <compound refid="_game_manager_8cs" kind="file"><name>GameManager.cs</name>
+  </compound>
+  <compound refid="dir_2236f2d5a158f01f94615562897f72d6" kind="dir"><name>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets</name>
+  </compound>
+  <compound refid="dir_668079d2f5f99f4bb16a382c50f8859f" kind="dir"><name>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI</name>
+  </compound>
+  <compound refid="dir_17ab4f57603f4618abe7416a939ee060" kind="dir"><name>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers</name>
+  </compound>
+  <compound refid="dir_ea49d7ef498bcb2f26e08f25b3b370ec" kind="dir"><name>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers</name>
+  </compound>
+  <compound refid="dir_175c2b0b79ad492ddb012609d834ddbb" kind="dir"><name>C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts</name>
+  </compound>
+</doxygenindex>

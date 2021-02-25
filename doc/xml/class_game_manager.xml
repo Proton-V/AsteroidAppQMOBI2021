@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_game_manager" kind="class" language="C#" prot="public">
+    <compoundname>GameManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_manager_1a4a8a6f5ad5afaa1d1c60918b4380f935" prot="public" static="no" mutable="no">
+        <type><ref refid="class_lives_controller" kindref="compound">LivesController</ref></type>
+        <definition>LivesController GameManager.LivesController</definition>
+        <argsstring></argsstring>
+        <name>LivesController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="35" column="28" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1ad6286bf0c2ec1078679d009fa5859496" prot="public" static="no" mutable="no">
+        <type><ref refid="class_canvas_u_i_manager" kindref="compound">CanvasUIManager</ref></type>
+        <definition>CanvasUIManager GameManager._canvasUI</definition>
+        <argsstring></argsstring>
+        <name>_canvasUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="37" column="28" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1aa8ab9c4a5aa368bfb9a5fa3185c99594" prot="public" static="no" mutable="no">
+        <type><ref refid="class_canvas_game_manager" kindref="compound">CanvasGameManager</ref></type>
+        <definition>CanvasGameManager GameManager._canvasGame</definition>
+        <argsstring></argsstring>
+        <name>_canvasGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="38" column="30" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a59216622515f6d390ee59182f99ce4c0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_spawn_controller" kindref="compound">SpawnController</ref></type>
+        <definition>SpawnController GameManager.SpawnController</definition>
+        <argsstring></argsstring>
+        <name>SpawnController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="39" column="28" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a308285e5c2f2500e2d6d059cc1be8b39" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameManager.AsteroidPrebab</definition>
+        <argsstring></argsstring>
+        <name>AsteroidPrebab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="54" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a70a71b461f0c6ad697e2bfede38d20c8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameManager._isGameOver</definition>
+        <argsstring></argsstring>
+        <name>_isGameOver</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="59" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_game_manager_1ae9711122c3e5251d8f9ff4e02283af09" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="41" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a309d708894ad98c3083387d52810fa0f" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.enemySpawnTime</definition>
+        <argsstring></argsstring>
+        <name>enemySpawnTime</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="42" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_game_manager_1a618c785b9ad493f65c58188ef1686b1e" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.lives</definition>
+        <argsstring></argsstring>
+        <name>lives</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="41" column="30" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a4542e838574b3c0b76c09b820d2d4300" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.setScore</definition>
+        <argsstring></argsstring>
+        <name>setScore</name>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="41" column="37" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_manager_1a9432f7cfaa2a3fdfe897c6fa20fc841f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameManager._lives</definition>
+        <argsstring></argsstring>
+        <name>_lives</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="45" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1aa31216295a17b01bcebb3496e5e38103" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameManager._setScore</definition>
+        <argsstring></argsstring>
+        <name>_setScore</name>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="49" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1accfb459e5049b3dbce69569a086b6825" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameManager._enemySpawnTime</definition>
+        <argsstring></argsstring>
+        <name>_enemySpawnTime</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="52" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a1babef10c024df8360cf6b701405a1ed" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GameManager._centerText</definition>
+        <argsstring></argsstring>
+        <name>_centerText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="57" column="20" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_manager_1ac3e882d19fd86757a40a42d0c88276f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="61" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_manager_1a5da290a9e109990a9eecc3ca8d01b2d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.ClickPlay</definition>
+        <argsstring>()</argsstring>
+        <name>ClickPlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Для кнопки &quot;Play&quot; основного меню </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="71" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_manager_1a9193c24424f6a10c7d9df407264ed4fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.StartGame</definition>
+        <argsstring>()</argsstring>
+        <name>StartGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод устанавливает статичные поля из сериализованных и вызывает методы SetLives и StartSpawn контроллеров <ref refid="class_lives_controller" kindref="compound">LivesController</ref> и <ref refid="class_spawn_controller" kindref="compound">SpawnController</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="80" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="80" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_manager_1ac750b1881b734d197bb277930a106693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.SetScore</definition>
+        <argsstring>(int setScore)</argsstring>
+        <name>SetScore</name>
+        <param>
+          <type>int</type>
+          <declname>setScore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Отвечает за добавление игровых очков <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>setScore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>отрицательное или положительное колличество очков </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="98" column="17" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="98" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_manager_1a4f933890b958b184e58748c1151a44ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void GameManager.GameOver</definition>
+        <argsstring>()</argsstring>
+        <name>GameOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызывается при проигрыше Дествие:<itemizedlist>
+<listitem><para>окончание игры</para>
+</listitem><listitem><para>ожидание</para>
+</listitem><listitem><para>перезагрузка игры </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="110" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="110" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Класс содержит основные методы логики игры и хранит ссылки на другие контроллеры и менеджеры. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_lives_controller" kindref="compound">LivesController</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_lives_controller" kindref="compound">LivesController</ref> контроллер жизней</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_canvasUI</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_canvas_u_i_manager" kindref="compound">CanvasUIManager</ref> менеджер UI канваса </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_canvasGame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_canvas_game_manager" kindref="compound">CanvasGameManager</ref> менеджер Game канваса </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_spawn_controller" kindref="compound">SpawnController</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_spawn_controller" kindref="compound">SpawnController</ref> контроллер Spawn&apos;а врагов</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int статичное поле - количество очков </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lives</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int статичное поле - количество жизней </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>setScore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int статичное поле - получаемое количество очков(за действие: убийство врага)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enemySpawnTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int статичное поле - время Spawn&apos;а врагов</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_lives</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int сериализованное приватное поле - количество жизней </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_setScore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int сериализованное приватное поле - получаемое количество очков(за действие: убийство врага) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_enemySpawnTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int сериализованное приватное поле - время Spawn&apos;а врагов</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AsteroidPrebab</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject префаб врага(&quot;Астероид&quot;)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_centerText</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string сериализованное приватное поле - текст в центре при вылете игрока за пределы экрана</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_isGameOver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool булиновка, определяющая закончился ли гейм </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>LivesController</label>
+        <link refid="class_lives_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SpawnController</label>
+        <link refid="class_spawn_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CanvasUIManager</label>
+        <link refid="class_canvas_u_i_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CanvasGameManager</label>
+        <link refid="class_canvas_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_canvasUI</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_canvasGame</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>LivesController</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>SpawnController</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" line="33" column="7" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/GameManager.cs" bodystart="34" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_game_manager_1aa8ab9c4a5aa368bfb9a5fa3185c99594" prot="public" virt="non-virtual"><scope>GameManager</scope><name>_canvasGame</name></member>
+      <member refid="class_game_manager_1ad6286bf0c2ec1078679d009fa5859496" prot="public" virt="non-virtual"><scope>GameManager</scope><name>_canvasUI</name></member>
+      <member refid="class_game_manager_1a1babef10c024df8360cf6b701405a1ed" prot="private" virt="non-virtual"><scope>GameManager</scope><name>_centerText</name></member>
+      <member refid="class_game_manager_1accfb459e5049b3dbce69569a086b6825" prot="private" virt="non-virtual"><scope>GameManager</scope><name>_enemySpawnTime</name></member>
+      <member refid="class_game_manager_1a70a71b461f0c6ad697e2bfede38d20c8" prot="public" virt="non-virtual"><scope>GameManager</scope><name>_isGameOver</name></member>
+      <member refid="class_game_manager_1a9432f7cfaa2a3fdfe897c6fa20fc841f" prot="private" virt="non-virtual"><scope>GameManager</scope><name>_lives</name></member>
+      <member refid="class_game_manager_1aa31216295a17b01bcebb3496e5e38103" prot="private" virt="non-virtual"><scope>GameManager</scope><name>_setScore</name></member>
+      <member refid="class_game_manager_1a308285e5c2f2500e2d6d059cc1be8b39" prot="public" virt="non-virtual"><scope>GameManager</scope><name>AsteroidPrebab</name></member>
+      <member refid="class_game_manager_1a5da290a9e109990a9eecc3ca8d01b2d1" prot="public" virt="non-virtual"><scope>GameManager</scope><name>ClickPlay</name></member>
+      <member refid="class_game_manager_1a309d708894ad98c3083387d52810fa0f" prot="public" virt="non-virtual"><scope>GameManager</scope><name>enemySpawnTime</name></member>
+      <member refid="class_game_manager_1a4f933890b958b184e58748c1151a44ce" prot="public" virt="non-virtual"><scope>GameManager</scope><name>GameOver</name></member>
+      <member refid="class_game_manager_1a618c785b9ad493f65c58188ef1686b1e" prot="private" virt="non-virtual"><scope>GameManager</scope><name>lives</name></member>
+      <member refid="class_game_manager_1a4a8a6f5ad5afaa1d1c60918b4380f935" prot="public" virt="non-virtual"><scope>GameManager</scope><name>LivesController</name></member>
+      <member refid="class_game_manager_1ac3e882d19fd86757a40a42d0c88276f3" prot="private" virt="non-virtual"><scope>GameManager</scope><name>OnValidate</name></member>
+      <member refid="class_game_manager_1ae9711122c3e5251d8f9ff4e02283af09" prot="public" virt="non-virtual"><scope>GameManager</scope><name>score</name></member>
+      <member refid="class_game_manager_1a4542e838574b3c0b76c09b820d2d4300" prot="private" virt="non-virtual"><scope>GameManager</scope><name>setScore</name></member>
+      <member refid="class_game_manager_1ac750b1881b734d197bb277930a106693" prot="public" virt="non-virtual"><scope>GameManager</scope><name>SetScore</name></member>
+      <member refid="class_game_manager_1a59216622515f6d390ee59182f99ce4c0" prot="public" virt="non-virtual"><scope>GameManager</scope><name>SpawnController</name></member>
+      <member refid="class_game_manager_1a9193c24424f6a10c7d9df407264ed4fa" prot="public" virt="non-virtual"><scope>GameManager</scope><name>StartGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

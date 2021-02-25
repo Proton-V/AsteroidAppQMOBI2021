@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_asteroid_controller" xml:lang="en-US">
+<title>AsteroidController Class Reference</title>
+<indexterm><primary>AsteroidController</primary></indexterm>
+<para>Inheritance diagram for AsteroidController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_asteroid_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_asteroid_controller_1ab3260ebd1511cf56a602dfc256a07690">Force</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_asteroid_controller_1ab63491af3cf8f78a4d0231446a9ed64d">SecondForce</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_asteroid_controller_1a057d61d3d5a7a9a9a0ccf04445fe9838"/>int <emphasis role="strong">MaxStage</emphasis> = 3</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Контроллер врага(&quot;Астероид&quot;) 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>MaxStage</entry>
+                                <entry>
+<para>int максимум стадий разлома астероида </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_stageSprites</entry>
+                                <entry>
+<para>List&lt;Sprite&gt; приватное сериализованное поле - лист спрайтов для различных стадий </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_stageSprites</entry>
+                                <entry>
+<para>List&lt;Sprite&gt; приватное поле - стадия объекта(врага), содержащего этот контроллер</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_particle</entry>
+                                <entry>
+<para>ParticleSystem приватное поле - партинклы врага </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_particleTime</entry>
+                                <entry>
+<para>float приватное сериализованное поле - время анимации партиклов при уничтожении врага</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_gameManager</entry>
+                                <entry>
+<para><link linkend="_class_game_manager">GameManager</link> менеджер игры </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_particleAnim</entry>
+                                <entry>
+<para>Action событие: анимация при уничтожении врага</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>isReadyToDestroy</entry>
+                                <entry>
+<para>bool булиновка, которая становится &quot;true&quot; когда враг проходит через видимые границы экрана </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 22 of file AsteroidController.cs.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_asteroid_controller_1ab3260ebd1511cf56a602dfc256a07690"/>    <section>
+    <title>Force()</title>
+<indexterm><primary>Force</primary><secondary>AsteroidController</secondary></indexterm>
+<indexterm><primary>AsteroidController</primary><secondary>Force</secondary></indexterm>
+<para><computeroutput>void AsteroidController.Force ( )</computeroutput></para>
+<para>Первое ускорение после Spawn&apos;а </para>
+<para>
+Definition at line 99 of file AsteroidController.cs.</para>
+    </section><anchor xml:id="_class_asteroid_controller_1ab63491af3cf8f78a4d0231446a9ed64d"/>    <section>
+    <title>SecondForce()</title>
+<indexterm><primary>SecondForce</primary><secondary>AsteroidController</secondary></indexterm>
+<indexterm><primary>AsteroidController</primary><secondary>SecondForce</secondary></indexterm>
+<para><computeroutput>void AsteroidController.SecondForce ( )</computeroutput></para>
+<para>Ускорение при разделении врага на 2 таких же </para>
+<para>
+Definition at line 109 of file AsteroidController.cs.</para>
+</section>
+</section>
+</section>

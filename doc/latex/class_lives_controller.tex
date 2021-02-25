@@ -1,0 +1,52 @@
+\hypertarget{class_lives_controller}{}\doxysection{Lives\+Controller Class Reference}
+\label{class_lives_controller}\index{LivesController@{LivesController}}
+Inheritance diagram for Lives\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_lives_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_lives_controller_ab68d5496df9ab2a624247da5a6897895}{Set\+Lives}} (int count)
+\item 
+void \mbox{\hyperlink{class_lives_controller_ac2f6ab84509aadcf9a1bf8372ad6f643}{Minus\+Live}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Контроллер жизней 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+lives\+Prefab} & Game\+Object сериализованное приватное поле -\/ префаб жизни(\+UI) \\
+\hline
+{\em \+\_\+lives\+UIObject} & List$<$\+Game\+Object$>$ приватное поле -\/ лист жизней(\+UI) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 10 of file Lives\+Controller.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_lives_controller_ac2f6ab84509aadcf9a1bf8372ad6f643}\label{class_lives_controller_ac2f6ab84509aadcf9a1bf8372ad6f643}} 
+\index{LivesController@{LivesController}!MinusLive@{MinusLive}}
+\index{MinusLive@{MinusLive}!LivesController@{LivesController}}
+\doxysubsubsection{\texorpdfstring{MinusLive()}{MinusLive()}}
+{\footnotesize\ttfamily void Lives\+Controller.\+Minus\+Live (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Убираем крайний объект \char`\"{}жизни\char`\"{} с канваса / вызываем Destroy 
+
+Definition at line 31 of file Lives\+Controller.\+cs.
+
+\mbox{\Hypertarget{class_lives_controller_ab68d5496df9ab2a624247da5a6897895}\label{class_lives_controller_ab68d5496df9ab2a624247da5a6897895}} 
+\index{LivesController@{LivesController}!SetLives@{SetLives}}
+\index{SetLives@{SetLives}!LivesController@{LivesController}}
+\doxysubsubsection{\texorpdfstring{SetLives()}{SetLives()}}
+{\footnotesize\ttfamily void Lives\+Controller.\+Set\+Lives (\begin{DoxyParamCaption}\item[{int}]{count }\end{DoxyParamCaption})}
+
+Задаем жизни в UI канвас 
+
+Definition at line 20 of file Lives\+Controller.\+cs.
+

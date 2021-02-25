@@ -1,0 +1,59 @@
+.TH "SpawnController" 3 "Thu Feb 25 2021" "Version 0.1" "Asteroid QMOBI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SpawnController
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStartSpawn\fP ()"
+.br
+.ti -1c
+.RI "IEnumerator \fBSpawn\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Vector2 \fB_randomPosOutScreen\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Контроллер Spawn'а врагов 
+.PP
+\fBParameters\fP
+.RS 4
+\fI_gameManager\fP \fBGameManager\fP менеджер игры 
+.RE
+.PP
+
+.PP
+Definition at line 12 of file SpawnController\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "IEnumerator SpawnController\&.Spawn ()"
+IEnumerator Spawn'а - ожидает, создает врага, устанавливает его позицию и вызывает у него метод Force(), если игра не окончена вызывает сама себя 
+.PP
+Definition at line 54 of file SpawnController\&.cs\&.
+.SS "void SpawnController\&.StartSpawn ()"
+Старт корутины Spawn'а 
+.PP
+Definition at line 46 of file SpawnController\&.cs\&.
+.SH "Property Documentation"
+.PP 
+.SS "Vector2 SpawnController\&._randomPosOutScreen\fC [get]\fP"
+Вектор2 с рандомной позицией за пределами экрана(стандартные расчеты, не учитывая статичность пикселей канваса) 
+.PP
+Definition at line 24 of file SpawnController\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Asteroid QMOBI from the source code\&.

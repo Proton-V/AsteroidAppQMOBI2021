@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_canvas_game_manager" kind="class" language="C#" prot="public">
+    <compoundname>CanvasGameManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_canvas_game_manager_1a61cf3b20d9128801f0bf0928da021240" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CanvasGameManager.BulletsParent</definition>
+        <argsstring></argsstring>
+        <name>BulletsParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" line="12" column="23" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_canvas_game_manager_1a6f22c6512f67e9827cd06d312b51325b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CanvasGameManager.EnemyParent</definition>
+        <argsstring></argsstring>
+        <name>EnemyParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" line="12" column="37" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_canvas_game_manager_1aa17fb5beb21b6e164094c75e6fa6ade4" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CanvasGameManager.ParticleParent</definition>
+        <argsstring></argsstring>
+        <name>ParticleParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" line="12" column="49" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Менеджер Game канваса <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>BulletsParent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject родитель для пуль </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EnemyParent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject родитель для врагов </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParticleParent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject родитель для партиклов </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CanvasGameManager</label>
+        <link refid="class_canvas_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CanvasGameManager</label>
+        <link refid="class_canvas_game_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" line="10" column="7" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Managers/CanvasGameManager.cs" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_canvas_game_manager_1a61cf3b20d9128801f0bf0928da021240" prot="public" virt="non-virtual"><scope>CanvasGameManager</scope><name>BulletsParent</name></member>
+      <member refid="class_canvas_game_manager_1a6f22c6512f67e9827cd06d312b51325b" prot="private" virt="non-virtual"><scope>CanvasGameManager</scope><name>EnemyParent</name></member>
+      <member refid="class_canvas_game_manager_1aa17fb5beb21b6e164094c75e6fa6ade4" prot="private" virt="non-virtual"><scope>CanvasGameManager</scope><name>ParticleParent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

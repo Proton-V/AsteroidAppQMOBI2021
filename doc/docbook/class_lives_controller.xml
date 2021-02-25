@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_lives_controller" xml:lang="en-US">
+<title>LivesController Class Reference</title>
+<indexterm><primary>LivesController</primary></indexterm>
+<para>Inheritance diagram for LivesController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_lives_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_lives_controller_1ab68d5496df9ab2a624247da5a6897895">SetLives</link> (int count)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_lives_controller_1ac2f6ab84509aadcf9a1bf8372ad6f643">MinusLive</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Контроллер жизней 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>_livesPrefab</entry>
+                                <entry>
+<para>GameObject сериализованное приватное поле - префаб жизни(UI) </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>_livesUIObject</entry>
+                                <entry>
+<para>List&lt;GameObject&gt; приватное поле - лист жизней(UI) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 10 of file LivesController.cs.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_lives_controller_1ac2f6ab84509aadcf9a1bf8372ad6f643"/>    <section>
+    <title>MinusLive()</title>
+<indexterm><primary>MinusLive</primary><secondary>LivesController</secondary></indexterm>
+<indexterm><primary>LivesController</primary><secondary>MinusLive</secondary></indexterm>
+<para><computeroutput>void LivesController.MinusLive ( )</computeroutput></para>
+<para>Убираем крайний объект &quot;жизни&quot; с канваса / вызываем Destroy </para>
+<para>
+Definition at line 31 of file LivesController.cs.</para>
+    </section><anchor xml:id="_class_lives_controller_1ab68d5496df9ab2a624247da5a6897895"/>    <section>
+    <title>SetLives()</title>
+<indexterm><primary>SetLives</primary><secondary>LivesController</secondary></indexterm>
+<indexterm><primary>LivesController</primary><secondary>SetLives</secondary></indexterm>
+<para><computeroutput>void LivesController.SetLives (int count)</computeroutput></para>
+<para>Задаем жизни в UI канвас </para>
+<para>
+Definition at line 20 of file LivesController.cs.</para>
+</section>
+</section>
+</section>

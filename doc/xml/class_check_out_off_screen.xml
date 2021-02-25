@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_check_out_off_screen" kind="class" language="C#" prot="public">
+    <compoundname>CheckOutOffScreen</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_check_out_off_screen_1a1703fcae2b70082797503d7f24de19e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 CheckOutOffScreen._posOnScreen</definition>
+        <argsstring>(Vector3 pos)</argsstring>
+        <name>_posOnScreen</name>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Статичный вектор2, возвращает положение на экране </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" line="12" column="27" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_check_out_off_screen_1a91f4874784d2477fa1c6996885a484a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CheckOutOffScreen._isOffScreen</definition>
+        <argsstring>(this Vector3 pos)</argsstring>
+        <name>_isOffScreen</name>
+        <param>
+          <type>this Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод расширения для Vector3, возвращает булиновку, говорит находится ли объект за пределами экрана </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" line="19" column="24" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Статичный класс для проверки нахождения за пределами экрана </para>
+    </detaileddescription>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" line="7" column="15" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/BulletController.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_check_out_off_screen_1a91f4874784d2477fa1c6996885a484a7" prot="public" virt="non-virtual"><scope>CheckOutOffScreen</scope><name>_isOffScreen</name></member>
+      <member refid="class_check_out_off_screen_1a1703fcae2b70082797503d7f24de19e6" prot="public" virt="non-virtual"><scope>CheckOutOffScreen</scope><name>_posOnScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

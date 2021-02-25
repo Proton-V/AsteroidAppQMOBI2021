@@ -1,0 +1,140 @@
+\hypertarget{class_game_manager}{}\doxysection{Game\+Manager Class Reference}
+\label{class_game_manager}\index{GameManager@{GameManager}}
+Inheritance diagram for Game\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_manager_a5da290a9e109990a9eecc3ca8d01b2d1}{Click\+Play}} ()
+\item 
+void \mbox{\hyperlink{class_game_manager_a9193c24424f6a10c7d9df407264ed4fa}{Start\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_game_manager_ac750b1881b734d197bb277930a106693}{Set\+Score}} (int set\+Score)
+\item 
+async void \mbox{\hyperlink{class_game_manager_a4f933890b958b184e58748c1151a44ce}{Game\+Over}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_manager_a4a8a6f5ad5afaa1d1c60918b4380f935}\label{class_game_manager_a4a8a6f5ad5afaa1d1c60918b4380f935}} 
+\mbox{\hyperlink{class_lives_controller}{Lives\+Controller}} {\bfseries Lives\+Controller}
+\item 
+\mbox{\Hypertarget{class_game_manager_ad6286bf0c2ec1078679d009fa5859496}\label{class_game_manager_ad6286bf0c2ec1078679d009fa5859496}} 
+\mbox{\hyperlink{class_canvas_u_i_manager}{Canvas\+UIManager}} {\bfseries \+\_\+canvas\+UI}
+\item 
+\mbox{\Hypertarget{class_game_manager_aa8ab9c4a5aa368bfb9a5fa3185c99594}\label{class_game_manager_aa8ab9c4a5aa368bfb9a5fa3185c99594}} 
+\mbox{\hyperlink{class_canvas_game_manager}{Canvas\+Game\+Manager}} {\bfseries \+\_\+canvas\+Game}
+\item 
+\mbox{\Hypertarget{class_game_manager_a59216622515f6d390ee59182f99ce4c0}\label{class_game_manager_a59216622515f6d390ee59182f99ce4c0}} 
+\mbox{\hyperlink{class_spawn_controller}{Spawn\+Controller}} {\bfseries Spawn\+Controller}
+\item 
+\mbox{\Hypertarget{class_game_manager_a308285e5c2f2500e2d6d059cc1be8b39}\label{class_game_manager_a308285e5c2f2500e2d6d059cc1be8b39}} 
+Game\+Object {\bfseries Asteroid\+Prebab}
+\item 
+\mbox{\Hypertarget{class_game_manager_a70a71b461f0c6ad697e2bfede38d20c8}\label{class_game_manager_a70a71b461f0c6ad697e2bfede38d20c8}} 
+bool {\bfseries \+\_\+is\+Game\+Over} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_manager_ae9711122c3e5251d8f9ff4e02283af09}\label{class_game_manager_ae9711122c3e5251d8f9ff4e02283af09}} 
+static int {\bfseries score} = 0
+\item 
+\mbox{\Hypertarget{class_game_manager_a309d708894ad98c3083387d52810fa0f}\label{class_game_manager_a309d708894ad98c3083387d52810fa0f}} 
+static int {\bfseries enemy\+Spawn\+Time} = 2
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс содержит основные методы логики игры и хранит ссылки на другие контроллеры и менеджеры. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_lives_controller}{Lives\+Controller}}} & \mbox{\hyperlink{class_lives_controller}{Lives\+Controller}} контроллер жизней\\
+\hline
+{\em \+\_\+canvas\+UI} & \mbox{\hyperlink{class_canvas_u_i_manager}{Canvas\+UIManager}} менеджер UI канваса \\
+\hline
+{\em \+\_\+canvas\+Game} & \mbox{\hyperlink{class_canvas_game_manager}{Canvas\+Game\+Manager}} менеджер Game канваса \\
+\hline
+{\em \mbox{\hyperlink{class_spawn_controller}{Spawn\+Controller}}} & \mbox{\hyperlink{class_spawn_controller}{Spawn\+Controller}} контроллер Spawn\textquotesingle{}а врагов\\
+\hline
+{\em score} & int статичное поле -\/ количество очков \\
+\hline
+{\em lives} & int статичное поле -\/ количество жизней \\
+\hline
+{\em set\+Score} & int статичное поле -\/ получаемое количество очков(за действие\+: убийство врага)\\
+\hline
+{\em enemy\+Spawn\+Time} & int статичное поле -\/ время Spawn\textquotesingle{}а врагов\\
+\hline
+{\em \+\_\+lives} & int сериализованное приватное поле -\/ количество жизней \\
+\hline
+{\em \+\_\+set\+Score} & int сериализованное приватное поле -\/ получаемое количество очков(за действие\+: убийство врага) \\
+\hline
+{\em \+\_\+enemy\+Spawn\+Time} & int сериализованное приватное поле -\/ время Spawn\textquotesingle{}а врагов\\
+\hline
+{\em Asteroid\+Prebab} & Game\+Object префаб врага(\char`\"{}Астероид\char`\"{})\\
+\hline
+{\em \+\_\+center\+Text} & string сериализованное приватное поле -\/ текст в центре при вылете игрока за пределы экрана\\
+\hline
+{\em \+\_\+is\+Game\+Over} & bool булиновка, определяющая закончился ли гейм \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file Game\+Manager.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_manager_a5da290a9e109990a9eecc3ca8d01b2d1}\label{class_game_manager_a5da290a9e109990a9eecc3ca8d01b2d1}} 
+\index{GameManager@{GameManager}!ClickPlay@{ClickPlay}}
+\index{ClickPlay@{ClickPlay}!GameManager@{GameManager}}
+\doxysubsubsection{\texorpdfstring{ClickPlay()}{ClickPlay()}}
+{\footnotesize\ttfamily void Game\+Manager.\+Click\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Для кнопки \char`\"{}\+Play\char`\"{} основного меню 
+
+Definition at line 71 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_game_manager_a4f933890b958b184e58748c1151a44ce}\label{class_game_manager_a4f933890b958b184e58748c1151a44ce}} 
+\index{GameManager@{GameManager}!GameOver@{GameOver}}
+\index{GameOver@{GameOver}!GameManager@{GameManager}}
+\doxysubsubsection{\texorpdfstring{GameOver()}{GameOver()}}
+{\footnotesize\ttfamily async void Game\+Manager.\+Game\+Over (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Вызывается при проигрыше Дествие\+:
+\begin{DoxyItemize}
+\item окончание игры
+\item ожидание
+\item перезагрузка игры 
+\end{DoxyItemize}
+
+Definition at line 110 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_game_manager_ac750b1881b734d197bb277930a106693}\label{class_game_manager_ac750b1881b734d197bb277930a106693}} 
+\index{GameManager@{GameManager}!SetScore@{SetScore}}
+\index{SetScore@{SetScore}!GameManager@{GameManager}}
+\doxysubsubsection{\texorpdfstring{SetScore()}{SetScore()}}
+{\footnotesize\ttfamily void Game\+Manager.\+Set\+Score (\begin{DoxyParamCaption}\item[{int}]{set\+Score }\end{DoxyParamCaption})}
+
+Отвечает за добавление игровых очков 
+\begin{DoxyParams}{Parameters}
+{\em set\+Score} & отрицательное или положительное колличество очков \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file Game\+Manager.\+cs.
+
+\mbox{\Hypertarget{class_game_manager_a9193c24424f6a10c7d9df407264ed4fa}\label{class_game_manager_a9193c24424f6a10c7d9df407264ed4fa}} 
+\index{GameManager@{GameManager}!StartGame@{StartGame}}
+\index{StartGame@{StartGame}!GameManager@{GameManager}}
+\doxysubsubsection{\texorpdfstring{StartGame()}{StartGame()}}
+{\footnotesize\ttfamily void Game\+Manager.\+Start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Метод устанавливает статичные поля из сериализованных и вызывает методы Set\+Lives и Start\+Spawn контроллеров \mbox{\hyperlink{class_lives_controller}{Lives\+Controller}} и \mbox{\hyperlink{class_spawn_controller}{Spawn\+Controller}} 
+
+Definition at line 80 of file Game\+Manager.\+cs.
+

@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_player_controller" kind="class" language="C#" prot="public">
+    <compoundname>PlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_controller_1ad9498247f2a2ab0b184c83a2a4752b66" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.BulletsStartPoint</definition>
+        <argsstring></argsstring>
+        <name>BulletsStartPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="24" column="24" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1aa15755f0f6de34413703c8b67304536c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.BulletPrefab</definition>
+        <argsstring></argsstring>
+        <name>BulletPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="24" column="42" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1addae51523cd8fb5e8ffa46be4809f771" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController._shipSpeed</definition>
+        <argsstring></argsstring>
+        <name>_shipSpeed</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="28" column="19" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a68a55fca037d92fb17f0940d8194fa91" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController._bulletSpeed</definition>
+        <argsstring></argsstring>
+        <name>_bulletSpeed</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="28" column="31" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a0c69e3e9bd93ea7027ebde23a5da3a3a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_manager" kindref="compound">GameManager</ref></type>
+        <definition>GameManager PlayerController._gameManager</definition>
+        <argsstring></argsstring>
+        <name>_gameManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="31" column="25" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ab3c0a1c37806a21130d908443905fba3" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D PlayerController._rb</definition>
+        <argsstring></argsstring>
+        <name>_rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="32" column="25" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a2dee592312be42b66d8cbf19cff15041" prot="private" static="no" mutable="no">
+        <type>ParticleSystem</type>
+        <definition>ParticleSystem PlayerController._particle</definition>
+        <argsstring></argsstring>
+        <name>_particle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="33" column="28" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a144475ef9bb49fa7a7aa40e2aab400f3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController._IsCenterChatActive</definition>
+        <argsstring></argsstring>
+        <name>_IsCenterChatActive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="35" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a287c627afeb6cf855f7bee93a4020ed0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController._IsSuperMode</definition>
+        <argsstring></argsstring>
+        <name>_IsSuperMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="36" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="39" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="46" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1af9efa6b7effa2e83637f6b3bae4298a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.CheckOffScreen</definition>
+        <argsstring>()</argsstring>
+        <name>CheckOffScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>проверяет находится ли игрок за пределами экрана </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="56" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a75a33bb6ae46e7aec0775e31ee3ca20e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.RotateToMousePos</definition>
+        <argsstring>(Vector3 _mousePos)</argsstring>
+        <name>RotateToMousePos</name>
+        <param>
+          <type>Vector3</type>
+          <declname>_mousePos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>поворачивает игрока в направлении курсора мыши </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="68" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1afcc5bc74ac44584dca7c8d3a1438724b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.CheckSpaceKey</definition>
+        <argsstring>()</argsstring>
+        <name>CheckSpaceKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>проверяет нажатие клавиши &quot;Space&quot; на клавиатуре </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="77" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="77" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a3401e52e1a8feb30a8e7a7c3aeed6fe1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.CheckMouseButtonDown</definition>
+        <argsstring>()</argsstring>
+        <name>CheckMouseButtonDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>проверяет нажатие левой кнопки мыши </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="97" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="97" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ab2ba3a7034578790e42bc90fd1aa7d81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.SpawnBullet</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnBullet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Spawn пули и задание движения, учитывая направление игрока </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="107" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="107" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a285d6efdc19e93b36f5229b82c6ee58d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PlayerController.OnSuperMode</definition>
+        <argsstring>()</argsstring>
+        <name>OnSuperMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>включение неуязвимости(супер мод) на время </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="117" column="25" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="117" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ac3bf9be5c5e43b8746597f149cc14cb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="127" column="18" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="127" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Контроллер Игрока <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>BulletsStartPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject сериализованное приватное поле - Стартовая позиция для пули </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BulletPrefab</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GameObject сериализованное приватное поле - Префаб пули</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_shipSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float сериализованное приватное поле - скорость игрока </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bulletSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>float сериализованное приватное поле - скорость пули</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_gameManager</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_game_manager" kindref="compound">GameManager</ref> менеджер игры </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_rb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rigidbody2D компонент rigidbody2d игрока </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ParticleSystem партиклы игрока(огонь, выходящий из нижней части корабля)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_IsCenterChatActive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool булиновка, определяющая состояние центрального чата </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_IsSuperMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool булиновка, определяющая находится ли игрок в состояние неуязвимости(Супер мод) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" line="21" column="7" bodyfile="C:/Users/Danya/Downloads/VRTEST2020/VRTEST2020/AsteroidQMOBI/Assets/Scripts/Controllers/PlayerController.cs" bodystart="22" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_player_controller_1a68a55fca037d92fb17f0940d8194fa91" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_bulletSpeed</name></member>
+      <member refid="class_player_controller_1a0c69e3e9bd93ea7027ebde23a5da3a3a" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_gameManager</name></member>
+      <member refid="class_player_controller_1a144475ef9bb49fa7a7aa40e2aab400f3" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_IsCenterChatActive</name></member>
+      <member refid="class_player_controller_1a287c627afeb6cf855f7bee93a4020ed0" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_IsSuperMode</name></member>
+      <member refid="class_player_controller_1a2dee592312be42b66d8cbf19cff15041" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_particle</name></member>
+      <member refid="class_player_controller_1ab3c0a1c37806a21130d908443905fba3" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_rb</name></member>
+      <member refid="class_player_controller_1addae51523cd8fb5e8ffa46be4809f771" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_shipSpeed</name></member>
+      <member refid="class_player_controller_1aa15755f0f6de34413703c8b67304536c" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>BulletPrefab</name></member>
+      <member refid="class_player_controller_1ad9498247f2a2ab0b184c83a2a4752b66" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>BulletsStartPoint</name></member>
+      <member refid="class_player_controller_1a3401e52e1a8feb30a8e7a7c3aeed6fe1" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>CheckMouseButtonDown</name></member>
+      <member refid="class_player_controller_1af9efa6b7effa2e83637f6b3bae4298a2" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>CheckOffScreen</name></member>
+      <member refid="class_player_controller_1afcc5bc74ac44584dca7c8d3a1438724b" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>CheckSpaceKey</name></member>
+      <member refid="class_player_controller_1ac3bf9be5c5e43b8746597f149cc14cb7" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_player_controller_1a285d6efdc19e93b36f5229b82c6ee58d" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>OnSuperMode</name></member>
+      <member refid="class_player_controller_1a75a33bb6ae46e7aec0775e31ee3ca20e" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>RotateToMousePos</name></member>
+      <member refid="class_player_controller_1ab2ba3a7034578790e42bc90fd1aa7d81" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>SpawnBullet</name></member>
+      <member refid="class_player_controller_1ae1117d9c4da3193181cddad2c814e467" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>Start</name></member>
+      <member refid="class_player_controller_1ae8bc83dffb99867a04be016473ed2c43" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
