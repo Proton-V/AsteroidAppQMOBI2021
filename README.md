@@ -1,4 +1,4 @@
-# AsteroidQMOBI
+# AsteroidAppQMOBI
 
 Test work for QMOBI
 
